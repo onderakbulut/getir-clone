@@ -12714,4 +12714,13 @@ fieldset:disabled .btn {
     width: 10%;
   }
 }
+
+@media (min-width: 1200px) {
+  .row-cols-lg-8 > * {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+    width: 12.5%;
+  }
+}
 /*# sourceMappingURL=bootstrap.css.map */

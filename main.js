@@ -12,6 +12,13 @@ if($(".mainSwiper").length){
         },
     });    
 }
+if($(".campSwiper".length)){
+    var swiper = new Swiper(".campSwiper", {
+        slidesPerView: 3,
+        spaceBetween: 16,
+        loop : true,
+    });   
+}
 
 if($(".selectFlag").length){
     var select2Flag = $('.selectFlag').select2({
