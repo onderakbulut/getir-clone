@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/icons/favicon-32x32.png">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- GoogleFonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,500&display=swap" rel="stylesheet">
+    <!-- icons -->
+    <link rel="stylesheet" href="images/icons/icomoon/style.css">
+    <!-- swiper js -->
+    <link rel="stylesheet" href="plugins/swiper/swiper-bundle.min.css">
+    <!-- select2 -->
+	<link rel="stylesheet" href="plugins/select2/select2.css">
+
+    <!-- custom styles -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <title>Home Page</title>
+</head>
+
+<body>
+
+    <!-- header start -->
+    <header class="header bg-gigas">
+        <div class="container-lg px-0">
+            <div class="d-flex flex-wrap flex-md-nowrap justify-content-between align-items-center">
+                <ul class="mb-0 list-inline topNav d-flex overflow-auto ps-2">
+                    <li class="list-inline-item active"><a href="/"><img src="images/icons/getir.svg" alt="..."></a>
+                    </li>
+                    <li class="list-inline-item"><a href="#"><img src="images/icons/getir-yemek.svg" alt="..."></a></li>
+                    <li class="list-inline-item"><a href="#"><img src="images/icons/getir-buyuk.svg" alt="..."></a></li>
+                    <li class="list-inline-item"><a href="#"><img src="images/icons/getir-su.svg" alt="..."></a></li>
+                </ul>
+                <ul class="mb-0 list-inline userActions text-fog d-none d-md-block pe-2">
+                    <li class="list-inline-item"><a class="text-decoration-none" href="#"><i class="icon-global me-2 align-baseline"></i> Türkçe (TR)</a></li>
+                    <li class="list-inline-item"><a class="text-decoration-none"" href=" #"><i class="icon-profile me-2"></i> Giriş Yap</a></li>
+                    <li class="list-inline-item"><a class="text-decoration-none" href="#"><i class="icon-register me-2"></i> Kayıt Ol</a></li>
+                </ul>
+                <div class="logo-wrapper d-flex d-md-none align-items-center justify-content-center w-100">
+                    <a class="d-block" href="/"><img src="images/logo.svg" alt="..."></a>
+                </div>
+                <div class="address-wrapper w-100 d-md-none">
+                    <button class="btn btn-light w-100 rounded-0 d-flex justify-content-between align-items-center">
+                        <div>
+                            <i class="icon-map-marker text-purple align-middle"></i>
+                            <span class="text-emperor fw-600 fs-14">Teslimat Adresi Belirle</span>
+                        </div>
+                        <i class="icon-angle-right text-purple fs-12"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header end -->
+
+    <!-- slider start -->
+    <section class="slider position-relative">
+        <div class="swiper mainSwiper d-none d-lg-block">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img class="w-100 swiper-lazy" src="images/slide-loading.jpg" data-src="images/slide1.jpg" alt="...">
+                    <div class="swiper-lazy-preloader"></div>
+                </div>
+                <div class="swiper-slide">
+                    <img class="w-100 swiper-lazy" src="images/slide-loading.jpg" data-src="images/slide2.jpg" alt="...">
+                    <div class="swiper-lazy-preloader"></div>
+                </div>
+                <div class="swiper-slide">
+                    <img class="w-100 swiper-lazy" src="images/slide-loading.jpg" data-src="images/slide3.jpg" alt="...">
+                    <div class="swiper-lazy-preloader"></div>
+                </div>
+                <div class="swiper-slide">
+                    <img class="w-100 swiper-lazy" src="images/slide-loading.jpg" data-src="images/slide4.jpg" alt="...">
+                    <div class="swiper-lazy-preloader"></div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper mainSwiperMobile d-lg-none">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img class="w-100 swiper-lazy" src="images/mobile-loading.jpg" data-src="images/slide1-mobile.jpg" alt="...">
+                    <div class="swiper-lazy-preloader"></div>
+                </div>
+                <div class="swiper-slide">
+                    <img class="w-100 swiper-lazy" src="images/mobile-loading.jpg" data-src="images/slide2-mobile.jpg" alt="...">
+                    <div class="swiper-lazy-preloader"></div>
+                </div>
+            </div>
+        </div>
+        <div class="slider-content">
+            <div class="container-lg h-100 px-0">
+                <div class="row align-items-center justify-content-between h-100 gx-0">
+                    <div class="col-lg-auto position-relative z-index-2 d-none d-lg-block">
+                        <img src="images/getir-big.svg" alt="...">
+                        <h1 class="text-white fw-600">Dakikalar içinde <br class="d-none d-lg-block"> kapınızda</h1>
+                    </div>
+                    <div class="col-lg-auto position-relative z-index-2">
+                        <div class="userForm">
+                            <h6 class="text-purple fw-600 fs-16 text-center mb-15">Giriş yap veya kayıt ol</h6>
+                            <form action="javascript:void(0);" class="needs-validation" novalidate>
+                                <div class="d-flex justify-content-between mb-2 pb-1">
+                                    <select class="selectFlag form-control w-100 cusom-form">
+                                        <option value="90" title="tr" selected>+90</option>
+                                        <option value="93" title="af">+93</option>
+                                        <option value="1" title="us">+1</option>
+                                        <option value="44" title="gb">+44</option>
+                                        <option value="222" title="mr">+222</option>
+                                        <option value="65" title="sg">+65</option>
+                                        <option value="966" title="sa">+966</option>
+                                        <option value="354" title="is">+354</option>
+                                        <option value="49" title="de">+49</option>
+                                    </select>
+                                    <div class="form-floating w-100 ms-10">
+                                        <input type="tel" id="phone" maxlength="10" class="form-control" id="floatingInput" placeholder="Telefon Numarası" required>
+                                        <label for="floatingInput">Telefon Numarası</label>
+                                        <div class="null-feedback">
+                                            Lütfen telefon numaranızı giriniz.
+                                        </div>
+                                        <div class="error-feedback">
+                                            Lütfen geçerli bir telefon numarası giriniz.
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="btn btn-warning custom-btn w-100 border-0 fs-14 fw-600 custom-shadow" type="submit">Telefon numarası ile devam et</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- slider end -->
+    
+    <!-- categories start -->
+    <section class="categories py-4">
+        <div class="container-lg">
+            <h6 class="fs-14 fw-600 text-nero">Kategoriler</h6>
+            <div class="row g-1 g-lg-3 row-cols-4 row-cols-sm-5 row-cols-md-6 row-cols-lg-10 text-break">
+                <div class="col">
+                    <button class="btn-cat border-0 p-0">
+                        <div class="img-top">
+                            <img class="img-fluid" src="images/indirimler.jpeg" alt="...">
+                        </div>
+                        <span class="desc">İndirimler</span>
+                    </button>
+                </div>
+                <div class="col">
+                    <button class="btn-cat border-0 p-0">
+                        <div class="img-top">
+                            <img class="img-fluid" src="images/su.jpeg" alt="...">
+                        </div>
+                        <span class="desc">Su & İçecek</span>
+                    </button>
+                </div>
+                <div class="col">
+                    <button class="btn-cat border-0 p-0">
+                        <div class="img-top">
+                            <img class="img-fluid" src="images/meyve.jpeg" alt="...">
+                        </div>
+                        <span class="desc">Meyve & Sebze</span>
+                    </button>
+                </div>
+                <div class="col">
+                    <button class="btn-cat border-0 p-0">
+                        <div class="img-top">
+                            <img class="img-fluid" src="images/firindan.jpeg" alt="...">
+                        </div>
+                        <span class="desc">Fırından</span>
+                    </button>
+                </div>
+                <div class="col">
+                    <button class="btn-cat border-0 p-0">
+                        <div class="img-top">
+                            <img class="img-fluid" src="images/temel-gida.jpeg" alt="...">
+                        </div>
+                        <span class="desc">Temel Gıda</span>
+                    </button>
+                </div>
+                <div class="col">
+                    <button class="btn-cat border-0 p-0">
+                        <div class="img-top">
+                            <img class="img-fluid" src="images/atistirmalik.jpeg" alt="...">
+                        </div>
+                        <span class="desc">Atıştırmalık</span>
+                    </button>
+                </div>
+                <div class="col">
+                    <button class="btn-cat border-0 p-0">
+                        <div class="img-top">
+                            <img class="img-fluid" src="images/dondurma.jpeg" alt="...">
+                        </div>
+                        <span class="desc">Dondurma</span>
+                    </button>
+                </div>
+                <div class="col">
+                    <button class="btn-cat border-0 p-0">
+                        <div class="img-top">
+                            <img class="img-fluid" src="images/sut.jpeg" alt="...">
+                        </div>
+                        <span class="desc">Süt Ürünleri</span>
+                    </button>
+                </div>
+                <div class="col">
+                    <button class="btn-cat border-0 p-0">
+                        <div class="img-top">
+                            <img class="img-fluid" src="images/kahvaltilik.jpeg" alt="...">
+                        </div>
+                        <span class="desc">Kahvaltılık</span>
+                    </button>
+                </div>
+                <div class="col">
+                    <button class="btn-cat border-0 p-0">
+                        <div class="img-top">
+                            <img class="img-fluid" src="images/yiyecek.jpeg" alt="...">
+                        </div>
+                        <span class="desc">Yiyecek</span>
+                    </button>
+                </div>
+                <div class="col">
+                    <button class="btn-cat border-0 p-0">
+                        <div class="img-top">
+                            <img class="img-fluid" src="images/fit.jpeg" alt="...">
+                        </div>
+                        <span class="desc">Fit & Form</span>
+                    </button>
+                </div>
+                <div class="col">
+                    <button class="btn-cat border-0 p-0">
+                        <div class="img-top">
+                            <img class="img-fluid" src="images/kisisel-bakim.jpeg" alt="...">
+                        </div>
+                        <span class="desc">Kişisel Bakım</span>
+                    </button>
+                </div>
+                <div class="col">
+                    <button class="btn-cat border-0 p-0">
+                        <div class="img-top">
+                            <img class="img-fluid" src="images/ev-bakim.jpeg" alt="...">
+                        </div>
+                        <span class="desc">Ev Bakım</span>
+                    </button>
+                </div>
+                <div class="col">
+                    <button class="btn-cat border-0 p-0">
+                        <div class="img-top">
+                            <img class="img-fluid" src="images/ev-yasam.jpeg" alt="...">
+                        </div>
+                        <span class="desc">Ev & Yaşam</span>
+                    </button>
+                </div>
+                <div class="col">
+                    <button class="btn-cat border-0 p-0">
+                        <div class="img-top">
+                            <img class="img-fluid" src="images/teknoloji.jpeg" alt="...">
+                        </div>
+                        <span class="desc">Teknoloji</span>
+                    </button>
+                </div>
+                <div class="col">
+                    <button class="btn-cat border-0 p-0">
+                        <div class="img-top">
+                            <img class="img-fluid" src="images/evcil-hayvan.jpeg" alt="...">
+                        </div>
+                        <span class="desc">Evcil Hayvan</span>
+                    </button>
+                </div>
+                <div class="col">
+                    <button class="btn-cat border-0 p-0">
+                        <div class="img-top">
+                            <img class="img-fluid" src="images/bebek.jpeg" alt="...">
+                        </div>
+                        <span class="desc">Bebek</span>
+                    </button>
+                </div>
+                <div class="col">
+                    <button class="btn-cat border-0 p-0">
+                        <div class="img-top">
+                            <img class="img-fluid" src="images/cinsel-saglik.jpeg" alt="...">
+                        </div>
+                        <span class="desc">Cinsel Sağlık</span>
+                    </button>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="plugins/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <!-- swiper js -->
+    <script src="plugins/swiper/swiper-bundle.min.js"></script>
+    <!-- select2 -->
+	<script src="plugins/select2/select2.min.js"></script>
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>

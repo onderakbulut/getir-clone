@@ -1,0 +1,70 @@
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  
+    .mainSwiper img {
+        max-height: 500px;
+        object-fit: cover;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .userForm {
+        width: 400px;
+    }
+    .slider-content {
+        position: absolute;
+        top:0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+    .slider-content h1 {
+        font-size: 36px;
+        line-height: 40px;
+        letter-spacing: -1.5px;
+        text-shadow: rgb(0 0 0 / 10%) 0px 1px 1px;
+        margin-top: 41px;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {  }
+
+
+
+
+
+
+/* `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {  
+    .topNav li a img {
+        height: 12px;
+    }
+}
+
+/* `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {  
+    .logo-wrapper {
+        height: 64px;
+        background-color: #5d3ebc;
+    }
+}
+
+/* `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {  
+    .userActions li a {
+        padding:6px;
+    }
+}
+
+/* `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {  }
+
+/* `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {  }

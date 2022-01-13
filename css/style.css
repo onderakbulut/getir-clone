@@ -1,0 +1,246 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    padding-bottom: 200px;
+}
+
+/* globals start */
+.bg-gigas {
+    background-color: #4c3398;
+}
+.bg-purple {
+    background-color: #5d3ebc;
+}
+
+.text-fog {
+    color: #dbdbff;
+}
+.text-purple {
+    color:#5d3ebc;
+}
+.text-emperor {
+    color:#525252;
+}
+.text-nero {
+    color:#191919;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.fs-12 {
+    font-size:12px
+}
+.fs-14 {
+    font-size:14px
+}
+.fs-16 {
+    font-size:16px;
+}
+
+.z-index-2 {
+    z-index: 2;
+}
+
+.mb-15 {
+    margin-bottom:15px;
+}
+.ms-10 {
+    margin-left:10px;
+}
+
+.custom-shadow {
+    box-shadow:rgb(105 116 136 / 15%) 0px 2px 6px;
+}
+
+/* header start */
+.topNav {
+    margin-top: 5px;
+}
+
+.topNav li a img {
+    height: 16px;
+}
+
+.topNav li a {
+    border-radius: 6px 6px 0px 0px;
+    padding: 12px 20px;
+    display: block;
+    font-size: 9px;
+}
+
+.topNav li.list-inline-item:not(:last-child) {
+    margin-right: 0;
+}
+
+.topNav li:not(.active) a img {
+    filter: brightness(5%) invert(90%) sepia(72%) saturate(3333%) hue-rotate(180deg) contrast(102%);
+}
+
+.topNav li.active a,
+.topNav li:hover a {
+    background-color: #5d3ebc;
+}
+
+.userActions li a {
+    color: #dbdbff;
+    padding: 7px 12px 7px 10px;
+    line-height: 19px;
+    white-space: nowrap;
+}
+
+.userActions li a img {
+    width: 16px;
+    height: 16px;
+    fill: #dbdbff;
+}
+
+/* header end */
+
+/* mainSwiper start */
+.mainSwiper .swiper-slide:before {
+    content:"";
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background: linear-gradient(90deg, #5d3ebc 0%, rgba(93, 62, 188, 0) 100%);
+    opacity: 1;
+    z-index: 99;
+}
+.userForm {
+    background-color: #fafafa;
+    border-radius: 8px;
+    padding:24px
+}
+.selectFlag {
+    width: 109px;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+.flag {
+    width: 16px;
+    height: 11px;
+    background-image:url(../images/flags-sprite.png) ;
+    margin-right: 7px;
+    margin-top: 2px;
+    display: block;
+}
+.flag.tr {
+    background-position: 0 -143px
+}
+.flag.af {
+    background-position: -48px 0;
+}
+.flag.us {
+    background-position: -112px -143px;
+}
+.flag.gb {
+    background-position: -80px -44px;
+}
+.flag.mr {
+    background-position: -144px -88px;
+}
+.flag.sg {
+    background-position: -112px -121px;
+}
+.flag.sa {
+    background-position: -32px -121px;
+}
+.flag.is {
+    background-position: -16px -66px;
+}
+.flag.de {
+    background-position: -32px -33px;
+}
+.select2-container--open .selectFlag   {
+    border-color:#5d3ebc;
+}
+.selectFlagDown {
+    margin-top: 10px;
+    background: rgb(255, 255, 255);
+    box-shadow: rgb(93 62 188 / 20%) 0px 4px 24px;
+    border-radius: 2px;
+}
+.flagBox {
+    font-family: Roboto,sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: #6b6b6b;
+}
+.form-floating > .form-control,
+.form-control {
+    border: 2px solid #dfdee2;
+    border-radius: 4px;
+    background-color: #ffffff;
+    height: 56px;
+    color:#191919;
+    font-size:14px;
+}
+.form-control:hover,
+.form-control:focus {
+    border-color: #7849f7;
+}
+.form-floating label {
+    color:rgb(117, 117, 117);
+}
+.custom-btn {
+    height: 48px;
+}
+
+[class*=-feedback] {
+    display: none;
+    width: 100%;
+    margin-top: 0.25rem;
+    font-size: 0.875em;
+    color: #dc3545;
+}
+.was-null .null-feedback {
+    display: block;
+}
+.was-error .error-feedback {
+    display: block;
+}
+.form-control.is-invalid {
+    border-color: #dc3545;
+}    
+/* mainSwiper end */
+
+/* categories start */
+.categories .img-top {
+    width: 48px;
+    height: 48px;
+}
+.categories .img-top img {
+    object-fit: cover;
+    border:1px solid #1919191a;
+    border-radius: 8px;
+}
+.categories .desc {
+    display: block;
+    text-align: center;
+    margin-top: 12px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 16px;
+    letter-spacing: -0.28px;
+    height: 32px;
+}
+.btn-cat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    transition: background 0.2s ease 0s;
+    min-height: 108.8px;
+    width: 100%;
+    color: #3e3e3e;
+}
+.btn-cat:hover,
+.btn-cat.active {
+    background-color: #f3f0fe;
+    color:#5d3ebc;
+}

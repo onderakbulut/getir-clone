@@ -1,0 +1,22 @@
+$yellow:  #ffd300 !default;
+
+@import '../node_modules/bootstrap/scss/bootstrap';
+
+
+.btn-warning {
+    color:#5d3ebc;
+    border-radius: 8px;
+    &:hover {
+        background-color: #7849f7;
+        color:#ffe430;
+    }
+    &:focus {
+        box-shadow: none!important;
+    }
+}
+
+.row-cols-lg-10 {
+    @include media-breakpoint-up(xl) {
+      @include row-cols(10);
+    }
+  }
