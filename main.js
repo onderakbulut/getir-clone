@@ -116,3 +116,13 @@ $(document).on("click",function(event){
 
     }
 })
+
+
+/* footer start */
+$(".footer [data-bs-toggle]").next().on('hide.bs.collapse',function(){
+    $(this).parent().removeClass("menu-open");
+});
+$(".footer [data-bs-toggle]").next().on('show.bs.collapse',function(){
+    $(this).parent().addClass("menu-open");
+});
+/* footer end */

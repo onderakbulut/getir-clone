@@ -1,7 +1,6 @@
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
-    padding-bottom: 200px;
     background-color: #fafafa;
 }
 
@@ -41,6 +40,9 @@ body {
 }
 .fs-12 {
     font-size:12px
+}
+.fs-13 {
+    font-size:13px
 }
 .fs-14 {
     font-size:14px
@@ -312,4 +314,57 @@ body {
 }
 .features .card p {
     letter-spacing: 0.16px;
+}
+/* features end */
+
+/* footer start */
+.footerLink li img {
+    width: 100%;
+    max-width: 160px;
+}
+.etbis {
+    box-shadow: 0px 1px 6px #69748826;
+    padding:16px;
+    display: inline-block;
+}
+.etbis img {
+    max-width: 72px;
+    width: 100%;
+    height: 84px;
+}
+.footer .right-arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    background-color: #f3f0fe;
+}
+.footer .right-arrow i {
+    font-size: 10px;
+    color:#5d3ebc;
+    transition: transform 0.5s ease 0s;
+}
+.footer-collapse .menu-open > a > .right-arrow > i {
+    transform: rotate(180deg);
+}
+.footer-bottom {
+    border-top:1px solid #f3f0fe
+}
+.social li a i {
+    font-size:20px;
+    color:#697488;
+    vertical-align: middle;
+}
+.btn-lang {
+    border-color:#f3f0fe;
+}
+.btn-lang i {
+    font-size: 16px;
+    vertical-align: text-bottom;
+    margin-right: 5px;
+}
+.btn-lang:hover {
+    background-color: #f3f0fe;
+    color:#5d3ebc;
 }

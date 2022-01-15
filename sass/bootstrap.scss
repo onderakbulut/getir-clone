@@ -26,3 +26,7 @@ $yellow:  #ffd300 !default;
       @include row-cols(8);
     }
 }
+
+.btn-check:focus + .btn, .btn:focus {
+    box-shadow: unset;
+}

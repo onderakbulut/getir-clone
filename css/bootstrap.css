@@ -12723,4 +12723,9 @@ fieldset:disabled .btn {
     width: 12.5%;
   }
 }
+
+.btn-check:focus + .btn, .btn:focus {
+  -webkit-box-shadow: unset;
+          box-shadow: unset;
+}
 /*# sourceMappingURL=bootstrap.css.map */
