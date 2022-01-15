@@ -7,6 +7,9 @@
         max-height: 500px;
         object-fit: cover;
     }
+    .bg-pattern {
+        border-radius: 8px;
+    }
 }
 
 /* Large devices (desktops, 992px and up) */

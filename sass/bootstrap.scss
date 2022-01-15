@@ -19,4 +19,10 @@ $yellow:  #ffd300 !default;
     @include media-breakpoint-up(xl) {
       @include row-cols(10);
     }
-  }
+}
+
+.row-cols-lg-8 {
+    @include media-breakpoint-up(xl) {
+      @include row-cols(8);
+    }
+}

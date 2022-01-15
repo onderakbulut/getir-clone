@@ -48,6 +48,13 @@ body {
 .fs-16 {
     font-size:16px;
 }
+.fs-18 {
+    font-size:18px;
+}
+.fs-26 {
+    font-size:26px;
+}
+
 
 .z-index-2 {
     z-index: 2;
@@ -280,4 +287,29 @@ body {
 }
 .productName {
     line-height: 18px;    
+}
+/* products end */
+
+/* calltoAction start */
+.bg-pattern {
+    background-image: url(../images/calltoaction.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.appLink a img {
+    height: 48px;
+}
+/* calltoAction end */
+
+/* features start */
+.features .card {
+    padding: 60px 16px 40px;
+    box-shadow: #5d3ebc0a 0px 6px 24px;
+}
+.features .card .img-top {
+    width: 150px;
+    height: 150px;
+}
+.features .card p {
+    letter-spacing: 0.16px;
 }

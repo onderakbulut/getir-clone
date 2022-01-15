@@ -30,7 +30,7 @@
 <body>
 
     <!-- header start -->
-    <header class="header bg-gigas">
+    <header class="header bg-gigas sticky-top">
         <div class="container-lg px-0">
             <div class="d-flex flex-wrap flex-md-nowrap justify-content-between align-items-center">
                 <ul class="mb-0 list-inline topNav d-flex overflow-auto ps-2">
@@ -42,7 +42,7 @@
                 </ul>
                 <ul class="mb-0 list-inline userActions text-fog d-none d-md-block pe-2">
                     <li class="list-inline-item"><a class="text-decoration-none" href="#"><i class="icon-global me-2 align-baseline"></i> Türkçe (TR)</a></li>
-                    <li class="list-inline-item"><a class="text-decoration-none"" href=" #"><i class="icon-profile me-2"></i> Giriş Yap</a></li>
+                    <li class="list-inline-item"><a class="text-decoration-none" href="#"><i class="icon-profile me-2"></i> Giriş Yap</a></li>
                     <li class="list-inline-item"><a class="text-decoration-none" href="#"><i class="icon-register me-2"></i> Kayıt Ol</a></li>
                 </ul>
                 <div class="logo-wrapper d-flex d-md-none align-items-center justify-content-center w-100">
@@ -50,10 +50,10 @@
                 </div>
                 <div class="address-wrapper w-100 d-md-none">
                     <button class="btn btn-light w-100 rounded-0 d-flex justify-content-between align-items-center">
-                        <div>
+                        <span>
                             <i class="icon-map-marker text-purple align-middle"></i>
                             <span class="text-emperor fw-600 fs-14">Teslimat Adresi Belirle</span>
-                        </div>
+                        </span>
                         <i class="icon-angle-right text-purple fs-12"></i>
                     </button>
                 </div>
@@ -120,8 +120,8 @@
                                         <option value="49" title="de">+49</option>
                                     </select>
                                     <div class="form-floating w-100 ms-10">
-                                        <input type="tel" id="phone" maxlength="10" class="form-control" id="floatingInput" placeholder="Telefon Numarası" required>
-                                        <label for="floatingInput">Telefon Numarası</label>
+                                        <input type="tel" id="phone" maxlength="10" class="form-control" placeholder="Telefon Numarası" required>
+                                        <label for="phone">Telefon Numarası</label>
                                         <div class="null-feedback">
                                             Lütfen telefon numaranızı giriniz.
                                         </div>
@@ -146,148 +146,148 @@
             <h6 class="fs-14 fw-600 text-nero">Kategoriler</h6>
             <div class="row g-1 g-lg-3 row-cols-4 row-cols-sm-5 row-cols-md-6 row-cols-lg-10 text-break">
                 <div class="col">
-                    <button class="btn-cat border-0 p-0">
+                    <div class="btn-cat border-0 p-0">
                         <div class="img-top">
                             <img class="img-fluid" src="images/indirimler.jpeg" alt="...">
                         </div>
                         <span class="desc">İndirimler</span>
-                    </button>
+                    </div>
                 </div>
                 <div class="col">
-                    <button class="btn-cat border-0 p-0">
+                    <div class="btn-cat border-0 p-0">
                         <div class="img-top">
                             <img class="img-fluid" src="images/su.jpeg" alt="...">
                         </div>
                         <span class="desc">Su & İçecek</span>
-                    </button>
+                    </div>
                 </div>
                 <div class="col">
-                    <button class="btn-cat border-0 p-0">
+                    <div class="btn-cat border-0 p-0">
                         <div class="img-top">
                             <img class="img-fluid" src="images/meyve.jpeg" alt="...">
                         </div>
                         <span class="desc">Meyve & Sebze</span>
-                    </button>
+                    </div>
                 </div>
                 <div class="col">
-                    <button class="btn-cat border-0 p-0">
+                    <div class="btn-cat border-0 p-0">
                         <div class="img-top">
                             <img class="img-fluid" src="images/firindan.jpeg" alt="...">
                         </div>
                         <span class="desc">Fırından</span>
-                    </button>
+                    </div>
                 </div>
                 <div class="col">
-                    <button class="btn-cat border-0 p-0">
+                    <div class="btn-cat border-0 p-0">
                         <div class="img-top">
                             <img class="img-fluid" src="images/temel-gida.jpeg" alt="...">
                         </div>
                         <span class="desc">Temel Gıda</span>
-                    </button>
+                    </div>
                 </div>
                 <div class="col">
-                    <button class="btn-cat border-0 p-0">
+                    <div class="btn-cat border-0 p-0">
                         <div class="img-top">
                             <img class="img-fluid" src="images/atistirmalik.jpeg" alt="...">
                         </div>
                         <span class="desc">Atıştırmalık</span>
-                    </button>
+                    </div>
                 </div>
                 <div class="col">
-                    <button class="btn-cat border-0 p-0">
+                    <div class="btn-cat border-0 p-0">
                         <div class="img-top">
                             <img class="img-fluid" src="images/dondurma.jpeg" alt="...">
                         </div>
                         <span class="desc">Dondurma</span>
-                    </button>
+                    </div>
                 </div>
                 <div class="col">
-                    <button class="btn-cat border-0 p-0">
+                    <div class="btn-cat border-0 p-0">
                         <div class="img-top">
                             <img class="img-fluid" src="images/sut.jpeg" alt="...">
                         </div>
                         <span class="desc">Süt Ürünleri</span>
-                    </button>
+                    </div>
                 </div>
                 <div class="col">
-                    <button class="btn-cat border-0 p-0">
+                    <div class="btn-cat border-0 p-0">
                         <div class="img-top">
                             <img class="img-fluid" src="images/kahvaltilik.jpeg" alt="...">
                         </div>
                         <span class="desc">Kahvaltılık</span>
-                    </button>
+                    </div>
                 </div>
                 <div class="col">
-                    <button class="btn-cat border-0 p-0">
+                    <div class="btn-cat border-0 p-0">
                         <div class="img-top">
                             <img class="img-fluid" src="images/yiyecek.jpeg" alt="...">
                         </div>
                         <span class="desc">Yiyecek</span>
-                    </button>
+                    </div>
                 </div>
                 <div class="col">
-                    <button class="btn-cat border-0 p-0">
+                    <div class="btn-cat border-0 p-0">
                         <div class="img-top">
                             <img class="img-fluid" src="images/fit.jpeg" alt="...">
                         </div>
                         <span class="desc">Fit & Form</span>
-                    </button>
+                    </div>
                 </div>
                 <div class="col">
-                    <button class="btn-cat border-0 p-0">
+                    <div class="btn-cat border-0 p-0">
                         <div class="img-top">
                             <img class="img-fluid" src="images/kisisel-bakim.jpeg" alt="...">
                         </div>
                         <span class="desc">Kişisel Bakım</span>
-                    </button>
+                    </div>
                 </div>
                 <div class="col">
-                    <button class="btn-cat border-0 p-0">
+                    <div class="btn-cat border-0 p-0">
                         <div class="img-top">
                             <img class="img-fluid" src="images/ev-bakim.jpeg" alt="...">
                         </div>
                         <span class="desc">Ev Bakım</span>
-                    </button>
+                    </div>
                 </div>
                 <div class="col">
-                    <button class="btn-cat border-0 p-0">
+                    <div class="btn-cat border-0 p-0">
                         <div class="img-top">
                             <img class="img-fluid" src="images/ev-yasam.jpeg" alt="...">
                         </div>
                         <span class="desc">Ev & Yaşam</span>
-                    </button>
+                    </div>
                 </div>
                 <div class="col">
-                    <button class="btn-cat border-0 p-0">
+                    <div class="btn-cat border-0 p-0">
                         <div class="img-top">
                             <img class="img-fluid" src="images/teknoloji.jpeg" alt="...">
                         </div>
                         <span class="desc">Teknoloji</span>
-                    </button>
+                    </div>
                 </div>
                 <div class="col">
-                    <button class="btn-cat border-0 p-0">
+                    <div class="btn-cat border-0 p-0">
                         <div class="img-top">
                             <img class="img-fluid" src="images/evcil-hayvan.jpeg" alt="...">
                         </div>
                         <span class="desc">Evcil Hayvan</span>
-                    </button>
+                    </div>
                 </div>
                 <div class="col">
-                    <button class="btn-cat border-0 p-0">
+                    <div class="btn-cat border-0 p-0">
                         <div class="img-top">
                             <img class="img-fluid" src="images/bebek.jpeg" alt="...">
                         </div>
                         <span class="desc">Bebek</span>
-                    </button>
+                    </div>
                 </div>
                 <div class="col">
-                    <button class="btn-cat border-0 p-0">
+                    <div class="btn-cat border-0 p-0">
                         <div class="img-top">
                             <img class="img-fluid" src="images/cinsel-saglik.jpeg" alt="...">
                         </div>
                         <span class="desc">Cinsel Sağlık</span>
-                    </button>
+                    </div>
                 </div>
 
 
@@ -534,6 +534,62 @@
             </div>
         </div>
     </section>
+    <!-- products end -->
+
+    <!-- calltoAction start -->
+    <section class="calltoAction mb-3 mb-lg-5">
+        <div class="container-lg px-0">
+            <div class="bg-pattern bg-purple pt-4">
+                <div class="row gx-0 align-items-center">
+                    <div class="col-md-6 px-3 px-lg-5">
+                        <h2 class="fs-26 text-white fw-bold mb-2 pb-1">Getir'i indirin!</h2>
+                        <p class="mb-4 pb-2 fs-16 fw-600 text-white">İstediğiniz ürünleri dakikalar içinde kapınıza <br class="d-none d-md-block"> getirelim.</p>
+                        <div class="appLink d-flex align-items-center">
+                            <a class="d-block mb-2 me-2" href="#"><img class="img-fluid" src="images/appstore.svg" alt="..."></a>
+                            <a class="d-block mb-2 me-2" href="#"><img class="img-fluid" src="images/googleplay.svg" alt="..."></a>
+                            <a class="d-block mb-2 me-2" href="#"><img class="img-fluid" src="images/appgallery.svg" alt="..."></a>
+                        </div>
+                        
+                    </div>
+                    <div class="col-md-6 text-end d-none d-md-block">
+                        <img src="images/calltomobile.png" alt="..." class="img-fluid mt-auto">
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </section>
+    <!-- calltoAction end -->
+
+    <!-- features start -->
+    <section class="features">
+        <div class="container-lg px-lg-0">
+            <div class="row row-cols-1 row-cols-md-3">
+                <div class="col mb-3">
+                    <div class="card bg-white rounded-8 border-0 text-center h-100">
+                        <div class="img-top mx-auto mb-4"><img src="images/feature1.svg" alt=".."></div>
+                        <h6 class="text-purple fs-18 fw-600 mb-2">Her siparişinize bir kampanya</h6>
+                        <p class="text-grey fw-15">Getir’de vereceğiniz her siparişe uygun bir kampanya bulabilirsiniz.</p>
+                    </div>
+                </div>
+                <div class="col mb-3">
+                    <div class="card bg-white rounded-8 border-0 text-center h-100">
+                        <div class="img-top mx-auto mb-4"><img src="images/feature2.svg" alt=".."></div>
+                        <h6 class="text-purple fs-18 fw-600 mb-2">Dakikalar içinde kapınızda</h6>
+                        <p class="text-grey fw-15">Getir’le siparişiniz dakikalar içinde kapınıza gelir.</p>
+                    </div>
+                </div>
+                <div class="col mb-3">
+                    <div class="card bg-white rounded-8 border-0 text-center h-100">
+                        <div class="img-top mx-auto mb-4"><img src="images/feature3.svg" alt=".."></div>
+                        <h6 class="text-purple fs-18 fw-600 mb-2">Binlerce çeşit mutluluk</h6>
+                        <p class="text-grey fw-15">Getir’de binlerce çeşit arasından seçiminizi yapabilirsiniz.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
 
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
