@@ -1,6 +1,11 @@
 if($(".mainSwiper").length){
     const mainSwiper = new Swiper('.mainSwiper', {
         loop: true,
+		autoplay: {
+			delay : 3000,
+			pauseOnMouseEnter : true,
+			disableOnInteraction : false,
+		},
         lazy: {
             loadPrevNext: true,
         },
